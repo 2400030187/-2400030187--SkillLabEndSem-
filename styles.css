@@ -1,7 +1,12 @@
-body {
-  font-family: Arial;
-  background: #f0f0f0;
+/* nav hover + focus for accessibility */
+.main-nav a {
+  color: var(--muted);
+  margin-left: 0.9rem;
+  text-decoration: none;
+  outline: none;
 }
-h1 {
-  color: darkblue;
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--accent);
+  text-decoration: underline;
 }
